@@ -112,7 +112,7 @@ function draw() {
 
    if (alive && scene === 1) {
      song.play()
-   song.loop();
+  // song.loop();
    } else if(!alive) { 
      song.stop() 
   }
