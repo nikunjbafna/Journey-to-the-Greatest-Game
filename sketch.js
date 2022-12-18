@@ -41,7 +41,6 @@ function preload() {
   pick = loadImage("anims/pick.png")
   spike = loadImage("anims/spike.png")
   trapd = loadImage("anims/trap.png")
-  song = loadSound('assets/ghost.mp3');
 }
 
 function setup() {
@@ -109,14 +108,6 @@ function draw() {
   focusCamera(player, tiledmap);
 
   die()
-
-//    if (alive && scene === 1) {
-//      song.play()
-//   // song.loop();
-//    } else if(!alive) { 
-//      song.stop() 
-//   }
-
 };
 
 function die() {
