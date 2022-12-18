@@ -110,12 +110,12 @@ function draw() {
 
   die()
 
-   if (alive && scene === 1) {
-     song.play()
-  // song.loop();
-   } else if(!alive) { 
-     song.stop() 
-  }
+//    if (alive && scene === 1) {
+//      song.play()
+//   // song.loop();
+//    } else if(!alive) { 
+//      song.stop() 
+//   }
 
 };
 
